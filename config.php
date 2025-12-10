@@ -12,7 +12,7 @@
 // CONFIGURAÇÕES PARA HOSPEDAGEM ONLINE
 // Descomente abaixo e preencha com os dados do seu servidor
 // Dados fornecidos diretamente (substitua por variáveis de ambiente em produção)
-$host = "localhost"; // Endereço do servidor MySQL
+$host = "https://cadastrodeproduto.davidtahim.davidtahim.com.br/"; // Endereço do servidor MySQL
 $username = 'davidtah_padoca_user'; // Usuário do banco
 $password = 'siteteste123'; // Senha do banco
 $dbname = 'davidtah_DBPRODUTOS'; // Nome do banco
@@ -38,6 +38,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0); // Não exibir erros em produção
 ini_set('log_errors', 1);
 ?>
+
 
 
 
