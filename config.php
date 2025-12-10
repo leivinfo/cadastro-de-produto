@@ -14,7 +14,7 @@
 define('DB_HOST', 'localhost'); // Endereço do servidor MySQL
 define('DB_USER', 'usuario_hospedagem'); // Usuário do banco
 define('DB_PASS', 'senha_hospedagem'); // Senha do banco
-define('DB_NAME', 'nome_banco_hospedagem'); // Nome do banco
+define('DB_NAME', 'davidtah_DBPRODUTOS'); // Nome do banco
 
 // Criar conexão com o banco de dados
 $conexao = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
@@ -37,3 +37,4 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0); // Não exibir erros em produção
 ini_set('log_errors', 1);
 ?>
+
