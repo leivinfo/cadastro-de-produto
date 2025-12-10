@@ -12,7 +12,7 @@
 // CONFIGURAÇÕES PARA HOSPEDAGEM ONLINE
 // Descomente abaixo e preencha com os dados do seu servidor
 define('DB_HOST', 'cadastrodeproduto.davidtahim.com.br'); // Endereço do servidor MySQL
-define('DB_USER', 'Usuário Teste'); // Usuário do banco
+define('DB_USER', 'davidtah_DBPRODUTOS'); // Usuário do banco
 define('DB_PASS', 'senhateste123'); // Senha do banco
 define('DB_NAME', 'davidtah_DBPRODUTOS'); // Nome do banco
 
@@ -37,6 +37,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0); // Não exibir erros em produção
 ini_set('log_errors', 1);
 ?>
+
 
 
 
