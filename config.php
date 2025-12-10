@@ -11,13 +11,14 @@
 
 // CONFIGURAÇÕES PARA HOSPEDAGEM ONLINE
 // Descomente abaixo e preencha com os dados do seu servidor
-define('DB_HOST', 'davidtahim.com.br'); // Endereço do servidor MySQL
-define('DB_USER', 'davidtah_produtos_user'); // Usuário do banco
-define('DB_PASS', 'produtos123'); // Senha do banco
-define('DB_NAME', 'davidtah_DBPRODUTOS'); // Nome do banco
+// Dados fornecidos diretamente (substitua por variáveis de ambiente em produção)
+$host = "localhost"; // Endereço do servidor MySQL
+$username = 'davidtah_padoca_user'; // Usuário do banco
+$password = 'siteteste123'; // Senha do banco
+$dbname = 'davidtah_DBPRODUTOS'; // Nome do banco
 
 // Criar conexão com o banco de dados
-$conexao = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+$conexao = new mysqli($host, $username, $password, $dbname);
 
 // Verificar conexão
 if ($conexao->connect_error) {
