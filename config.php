@@ -12,8 +12,8 @@
 // CONFIGURAÇÕES PARA HOSPEDAGEM ONLINE
 // Descomente abaixo e preencha com os dados do seu servidor
 define('DB_HOST', 'localhost'); // Endereço do servidor MySQL
-define('DB_USER', 'davidtah_padoca_user'); // Usuário do banco
-define('DB_PASS', 'siteteste123'); // Senha do banco
+define('DB_USER', 'davidtah_produtos_user'); // Usuário do banco
+define('DB_PASS', 'produtos123'); // Senha do banco
 define('DB_NAME', 'davidtah_DBPRODUTOS'); // Nome do banco
 
 // Criar conexão com o banco de dados
@@ -37,6 +37,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0); // Não exibir erros em produção
 ini_set('log_errors', 1);
 ?>
+
 
 
 
